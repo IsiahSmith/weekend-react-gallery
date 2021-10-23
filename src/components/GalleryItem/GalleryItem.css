@@ -1,3 +1,20 @@
 .picClass {
     width: 300px;
+
+}
+
+.toggleClass {
+    opacity: .5;
+
+}
+
+.showDesc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.newPic {
+    position: relative;
 }
