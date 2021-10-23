@@ -1,9 +1,10 @@
 import GalleryItem from '../GalleryItem/GalleryItem.jsx';
+import './GalleryList.css'
 
 function GalleryList({ gallery, addLike }) {
     return (
         <>
-            <div>
+            <div className="listDiv">
                 {
                     gallery.map(newPicture => (
                         <GalleryItem

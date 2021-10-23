@@ -12,7 +12,6 @@ function GalleryItem({ newPicture, addLike }) {
 
 
 
-    console.log(showDesc);
     return (
         <>
             <div>
@@ -20,15 +19,14 @@ function GalleryItem({ newPicture, addLike }) {
                     <img className={showDesc ? "picClass toggleClass" : "picClass"}
                         src={newPicture.path}
                         alt={newPicture.description}
-                        onClick={() => { toggleDescription() }} />
-                    {showDesc && <div className="showDesc">{newPicture.description}</div>}
+                        onClick={toggleDescription} />
+                    {showDesc && (<div className="showDesc">{newPicture.description}</div>)}
                 </div>
                 <div>
                     <button onClick={() => addLike(newPicture)}>love it!</button>
                 </div>
                 <p><span>{newPicture.likes}</span> people love this!</p>
             </div>
-
         </>
     )
 }
