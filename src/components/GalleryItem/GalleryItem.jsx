@@ -24,8 +24,9 @@ function GalleryItem({ newPicture, addLike }) {
                 </div>
                 <div>
                     <button onClick={() => addLike(newPicture)}>love it!</button>
+                    {newPicture.likes ? <p><span>{newPicture.likes}</span> people love this!</p> : <p>No one likes this :( </p>}
                 </div>
-                <p><span>{newPicture.likes}</span> people love this!</p>
+                {/* <p><span>{newPicture.likes}</span> people love this!</p> */}
             </div>
         </>
     )
