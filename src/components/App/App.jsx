@@ -26,10 +26,10 @@ const fetchGallery = () => {
 };//End GET
 
 //PUT for like
-const putGallery = () => {
+const addLike = (gallery) => {
   axios({
     method: 'PUT',
-    url: `/like/${gallery.id}`
+    url: `/gallery/like/${gallery.id}`
   }).then(response => {
     console.log('in PUT', response);
     fetchGallery();
@@ -47,7 +47,7 @@ const putGallery = () => {
         </header>
         <GalleryList 
         gallery={gallery}
-        putGallery={putGallery}/>
+        addLike={addLike}/>
       </div>
     );
 }

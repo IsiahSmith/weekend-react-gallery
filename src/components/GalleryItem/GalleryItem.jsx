@@ -1,10 +1,16 @@
-function GalleryItem({newPicture, putGallery }) {
+import './GalleryItem.css'
+
+function GalleryItem({ newPicture, addLike }) {
     return (
         <>
             <div>
-                <img src={newPicture.path} />
-                <button onClick={putGallery}>love it!</button>
+                <img className="picClass" src={newPicture.path} />
+                <div>
+                    <button onClick={() => addLike(newPicture)}>love it!</button>
+                </div>
+                <p><span>{newPicture.likes}</span> people love this!</p>
             </div>
+
         </>
     )
 }
