@@ -5,6 +5,10 @@ import GalleryList from '../GalleryList/GalleryList';
 
 function App() {
 
+useEffect(() => {
+  fetchGallery()
+}, [])
+
 let [gallery, setGallery] = useState([]);
 
 
@@ -12,10 +16,10 @@ let [gallery, setGallery] = useState([]);
 const fetchGallery = () => {
   axios({
     method: "GET",
-    url: '/list'
+    url: '/gallery'
   }).then(response => {
     console.log('GET response', response);
-    setGallery(response);
+    setGallery(response.data);
   }).catch(error => {
     console.log('Error in GET', error);
   });
@@ -44,7 +48,6 @@ const putGallery = () => {
         <GalleryList 
         gallery={gallery}
         putGallery={putGallery}/>
-        {/* <img src="images/goat_small.jpg"/> */}
       </div>
     );
 }
