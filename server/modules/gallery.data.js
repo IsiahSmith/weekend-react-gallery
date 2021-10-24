@@ -21,7 +21,7 @@ const galleryItems = [
         id: 4, 
         description: 'Lex and I on the beach in Tampa', 
         path: '/images/on_the_beach.jpg', 
-        likes: 0 
+        likes: 1000 
     },
     { 
         id: 5, 
