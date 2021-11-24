@@ -21,7 +21,7 @@ This is a web application that displays photos, by using a URL and a description
 
 ## Screenshots
 
-<img src="/images/project_screenshot.jpg" />
+<img src="project_screenshot.png" />
 
 ## Built With
 
