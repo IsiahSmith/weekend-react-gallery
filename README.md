@@ -51,4 +51,4 @@ Thank you to Prime Digital Academy and all of my peers for all of the help they'
 
 ## Contacts
 
-<a href="https://www.linkedin.com/in/https://www.linkedin.com/in/isiah-smith-807809225/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>  <a href="mailto:isiahthomassmith@gmail.com"><img src=https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/email_me_button_icon_151852.svg /></a>
+<a href="https://www.linkedin.com/in/isiah-smith-807809225"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>  <a href="mailto:isiahthomassmith@gmail.com"><img src=https://raw.githubusercontent.com/johnturner4004/readme-generator/master/src/components/assets/images/email_me_button_icon_151852.svg /></a>
